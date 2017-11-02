@@ -1,0 +1,11 @@
+{
+  "name": "exercicios_webpack",
+  "version": "1.0.0",
+  "description": "Exercícios práticos sobre como usar o webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glaucia Lemos",
+  "license": "MIT"
+}
