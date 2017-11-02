@@ -5,7 +5,4 @@
  * Author: Glaucia Lemos
  */
 
-import Pessoa from './pessoa'
-
-const pessoa = new Pessoa("Glaucia Lemos");
-pessoa.exibirNome();
+require('./duvidaCruel');
