@@ -7,7 +7,7 @@
 
 // Método responsável por exibir um determinado texto via console:
 function info(text) {
-    console.log(`INFO: ${text}`);
+  console.log(`INFO: ${text}`);
 }
 
-module.exports = { info }
+module.exports = { info };
