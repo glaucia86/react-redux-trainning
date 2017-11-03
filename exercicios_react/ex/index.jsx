@@ -7,15 +7,9 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Familia from './familia'
-import Member from './member'
+import ClasseComponent from './classeComponent'
 
 ReactDOM.render(
-  <Familia sobrenome='Lemos'>
-    <Member nome='Glaucia' />
-    <Member nome='José Edmilson' />
-    <Member nome='Jurema' />
-    <Member nome='Jake' />
-  </Familia>,
-  document.getElementById("app")
+    <ClasseComponent value='Exemplo de Classe Component!'/>
+  ,document.getElementById("app")
 );
