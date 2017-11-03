@@ -10,6 +10,6 @@ import ReactDOM from 'react-dom'
 import ClasseComponent from './classeComponent'
 
 ReactDOM.render(
-    <ClasseComponent label='Contador' valorInicial={10} />
+    <ClasseComponent value='Exemplo de Classe Component!'/>
   ,document.getElementById("app")
 );
