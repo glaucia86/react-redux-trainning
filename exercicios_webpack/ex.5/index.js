@@ -5,7 +5,6 @@
  * Author: Glaucia Lemos
  */
 
-import './estilo.css'
 import 'react'
 
 export default props => (
