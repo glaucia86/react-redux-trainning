@@ -11,11 +11,8 @@ import Familia from './familia'
 import Member from './member'
 
 ReactDOM.render(
-  <Familia sobrenome='Lemos'>
-    <Member nome='Glaucia' />
-    <Member nome='José Edmilson' />
-    <Member nome='Jurema' />
-    <Member nome='Jake' />
-  </Familia>,
-  document.getElementById("app")
+    <Familia>
+        <Member nome='Glaucia' sobrenome='Lemos' />
+    </Familia>
+  ,document.getElementById("app")
 );
