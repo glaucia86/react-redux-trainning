@@ -9,4 +9,4 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Component from './component'
 
-ReactDOM.render(<Component nome='Olá Glaucia Lemos'/>, document.getElementById('app'))
+ReactDOM.render(<Component />, document.getElementById('app'))
