@@ -7,12 +7,11 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Familia from './familia'
-import Member from './member'
+import FamiliaLemos from './familiaLemos'
 
 ReactDOM.render(
-    <Familia>
-        <Member nome='Glaucia' sobrenome='Lemos' />
-    </Familia>
-  ,document.getElementById("app")
+  <div>
+    <FamiliaLemos />
+  </div>,
+  document.getElementById("app")
 );
