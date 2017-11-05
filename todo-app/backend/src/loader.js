@@ -4,3 +4,5 @@
  * Descrição: Arquivo responsável por realizar o carregamentos dos arquivos da pasta 'config'
  * Author: Glaucia Lemos
  */
+
+require('./config/server');
