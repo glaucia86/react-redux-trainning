@@ -4,7 +4,8 @@
   "description": "Desenvolvimento de uma pequena aplicação 'todo-app' para visar os princiapais conceitos de CRUD com Node & React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production": "webpack --progress -p"
   },
   "author": "Glaucia Lemos",
   "license": "MIT",
